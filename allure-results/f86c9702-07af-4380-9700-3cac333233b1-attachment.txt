@@ -1,0 +1,6 @@
+resonse is {
+  timestamp: '2025-09-24T04:27:30.671+00:00',
+  status: 404,
+  error: 'Not Found',
+  path: '/objectsundefined'
+}

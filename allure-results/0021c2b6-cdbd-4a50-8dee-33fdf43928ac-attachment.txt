@@ -1,0 +1,30 @@
+first avaliable_data: Tvc Mas Sf Exp
+12696
+02:00
+Coimbatore- All Stations
+Fri, 26 September 2025
+08 h 00 m
+View Route
+10:00
+Chennai Central
+Fri, 26 September 2025
+first_duration: Allp Dhn Express
+13352
+12:20
+Coimbatore- All Stations
+Fri, 26 September 2025
+09 h 20 m
+View Route
+21:40
+Chennai Central
+Fri, 26 September 2025
+first_arrives: Mas Vandebharat
+20644
+06:00
+Coimbatore- All Stations
+Fri, 26 September 2025
+05 h 50 m
+View Route
+11:50
+Chennai Central
+Fri, 26 September 2025

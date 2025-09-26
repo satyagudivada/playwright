@@ -1,0 +1,3 @@
+alert msg is: I am an alert box!
+alert msg is: Press a button!
+confirm msg Press a button!

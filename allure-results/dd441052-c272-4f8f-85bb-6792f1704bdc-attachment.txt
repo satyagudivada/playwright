@@ -1,0 +1,4 @@
+No of labels locator('//label[@id="samsung"]')
+No of labels 1
+No of labels locator('//label[@id="realme"]')
+No of labels 1

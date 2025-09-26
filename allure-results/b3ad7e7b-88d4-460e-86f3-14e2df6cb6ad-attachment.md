@@ -1,0 +1,236 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary:
+      - navigation "Sidepanel":
+        - generic:
+          - link "client brand banner" [ref=e4] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e6] [cursor=pointer]
+          - generic [ref=e7] [cursor=pointer]: 
+        - generic:
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - textbox "Search" [ref=e12]
+              - text: 
+            - separator
+          - list [ref=e13]:
+            - listitem:
+              - link "Admin" [ref=e14] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e17] [cursor=pointer]: Admin
+            - listitem:
+              - link "PIM" [ref=e18] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e32] [cursor=pointer]: PIM
+            - listitem:
+              - link "Leave" [ref=e33] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e36] [cursor=pointer]: Leave
+            - listitem:
+              - link "Time" [ref=e37] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e43] [cursor=pointer]: Time
+            - listitem:
+              - link "Recruitment" [ref=e44] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e50] [cursor=pointer]: Recruitment
+            - listitem:
+              - link "My Info" [ref=e51] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e57] [cursor=pointer]: My Info
+            - listitem:
+              - link "Performance" [ref=e58] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e66] [cursor=pointer]: Performance
+            - listitem:
+              - link "Dashboard" [ref=e67] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e70] [cursor=pointer]: Dashboard
+            - listitem:
+              - link "Directory" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e74] [cursor=pointer]: Directory
+            - listitem:
+              - link "Maintenance" [ref=e75] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e79] [cursor=pointer]: Maintenance
+            - listitem:
+              - link "Claim" [ref=e80] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e83] [cursor=pointer]
+                - generic [ref=e87] [cursor=pointer]: Claim
+            - listitem:
+              - link "Buzz" [ref=e88] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e91] [cursor=pointer]: Buzz
+    - banner [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95] [cursor=pointer]: 
+          - heading "Dashboard" [level=6] [ref=e97]
+        - link "Upgrade" [ref=e99]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e100] [cursor=pointer]: Upgrade
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - generic [ref=e108] [cursor=pointer]:
+              - img "profile picture" [ref=e109] [cursor=pointer]
+              - generic [ref=e110] [cursor=pointer]: 
+      - navigation "Topbar Menu" [ref=e112]:
+        - list [ref=e113]:
+          - button "" [ref=e115] [cursor=pointer]:
+            - generic [ref=e116] [cursor=pointer]: 
+  - generic [ref=e117]:
+    - generic [ref=e119]:
+      - generic [ref=e121]:
+        - generic [ref=e123]:
+          - generic [ref=e124]: 
+          - paragraph [ref=e125]: Time at Work
+        - separator [ref=e126]
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - img "profile picture" [ref=e131]
+            - generic [ref=e132]:
+              - paragraph [ref=e133]: Punched Out
+              - paragraph [ref=e134]: "Punched Out: Mar 29th at 01:19 PM (GMT 7)"
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: 0h
+              - generic [ref=e138]: 0m
+              - text: Today
+            - button "" [ref=e139] [cursor=pointer]:
+              - generic [ref=e140] [cursor=pointer]: 
+          - separator [ref=e141]
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - paragraph [ref=e144]: This Week
+              - paragraph [ref=e145]: Sep 15 - Sep 21
+            - generic [ref=e146]:
+              - generic [ref=e147]: 
+              - paragraph [ref=e148]: 0h 0m
+      - generic [ref=e152]:
+        - generic [ref=e154]:
+          - generic [ref=e155]: 
+          - paragraph [ref=e156]: My Actions
+        - separator [ref=e157]
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - button [ref=e161] [cursor=pointer]
+            - paragraph [ref=e167] [cursor=pointer]: (1) Pending Self Review
+          - generic [ref=e168]:
+            - button [ref=e169] [cursor=pointer]
+            - paragraph [ref=e178] [cursor=pointer]: (1) Candidate to Interview
+      - generic [ref=e180]:
+        - generic [ref=e182]:
+          - generic [ref=e183]: 
+          - paragraph [ref=e184]: Quick Launch
+        - separator [ref=e185]
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - button "Assign Leave" [ref=e189] [cursor=pointer]
+            - paragraph [ref=e193]: Assign Leave
+          - generic [ref=e194]:
+            - button "Leave List" [ref=e195] [cursor=pointer]
+            - paragraph [ref=e203]: Leave List
+          - generic [ref=e204]:
+            - button "Timesheets" [ref=e205] [cursor=pointer]
+            - paragraph [ref=e212]: Timesheets
+          - generic [ref=e213]:
+            - button "Apply Leave" [ref=e214] [cursor=pointer]
+            - paragraph [ref=e218]: Apply Leave
+          - generic [ref=e219]:
+            - button "My Leave" [ref=e220] [cursor=pointer]
+            - paragraph [ref=e226]: My Leave
+          - generic [ref=e227]:
+            - button "My Timesheet" [ref=e228] [cursor=pointer]
+            - paragraph [ref=e232]: My Timesheet
+      - generic [ref=e234]:
+        - generic [ref=e236]:
+          - generic [ref=e237]: 
+          - paragraph [ref=e238]: Buzz Latest Posts
+        - separator [ref=e239]
+        - generic [ref=e241]:
+          - generic [ref=e242]:
+            - generic [ref=e243] [cursor=pointer]:
+              - img "profile picture" [ref=e245] [cursor=pointer]
+              - generic [ref=e246] [cursor=pointer]:
+                - paragraph [ref=e247] [cursor=pointer]: nishant akhil user
+                - paragraph [ref=e248] [cursor=pointer]: 2025-19-09 02:20 PM
+            - separator [ref=e249]
+            - paragraph [ref=e250]: Merhaba
+          - generic [ref=e251]:
+            - generic [ref=e252] [cursor=pointer]:
+              - img "profile picture" [ref=e254] [cursor=pointer]
+              - generic [ref=e255] [cursor=pointer]:
+                - paragraph [ref=e256] [cursor=pointer]: nishant akhil user
+                - paragraph [ref=e257] [cursor=pointer]: 2020-08-10 09:08 AM
+            - separator [ref=e258]
+            - paragraph [ref=e259]: "Hi All; Linda has been blessed with a baby boy! Linda: With love, we welcome your dear new baby to this world. Congratulations!"
+          - generic [ref=e260]:
+            - generic [ref=e261] [cursor=pointer]:
+              - img "profile picture" [ref=e263] [cursor=pointer]
+              - generic [ref=e264] [cursor=pointer]:
+                - paragraph [ref=e265] [cursor=pointer]: Sania Shaheen
+                - paragraph [ref=e266] [cursor=pointer]: 2020-08-10 09:08 AM
+            - separator [ref=e267]
+            - paragraph [ref=e268]: "World Championship: What makes the perfect snooker player? Mark Selby: Robertson has one of the best techniques in the game. It is very, very straight and he fully commits to every single shot he plays. John Higgins: Every shot is repetitive. He always keeps the same technique and cues through the ball bang straight. Barry Hawkins: Robertson is textbook with his grip and has a ramrod solid cue action, delivering it in a straight line. Honourable mentions: Shaun Murphy, Ding Junhui, Jack Lisowski."
+          - generic [ref=e269]:
+            - generic [ref=e270] [cursor=pointer]:
+              - img "profile picture" [ref=e272] [cursor=pointer]
+              - generic [ref=e273] [cursor=pointer]:
+                - paragraph [ref=e274] [cursor=pointer]: Rebecca Harmony
+                - paragraph [ref=e275] [cursor=pointer]: 2020-08-10 09:04 AM
+            - separator [ref=e276]
+            - paragraph [ref=e277]: Throwback Thursdays!!
+            - img [ref=e278]
+          - generic [ref=e279]:
+            - generic [ref=e280] [cursor=pointer]:
+              - img "profile picture" [ref=e282] [cursor=pointer]
+              - generic [ref=e283] [cursor=pointer]:
+                - paragraph [ref=e284] [cursor=pointer]: Russel Hamilton
+                - paragraph [ref=e285] [cursor=pointer]: 2020-08-10 09:03 AM
+            - separator [ref=e286]
+            - paragraph [ref=e287]: Live SIMPLY Dream BIG Be GREATFULL Give LOVE Laugh LOT.......
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - paragraph [ref=e295]: Employees on Leave Today
+          - generic [ref=e296] [cursor=pointer]: 
+        - separator [ref=e297]
+        - generic [ref=e299]:
+          - img "profile picture" [ref=e301]
+          - generic [ref=e302]:
+            - paragraph [ref=e303]: nishant user
+            - paragraph [ref=e304]: CAN - Vacation (09:00 - 17:00)
+          - paragraph
+      - generic [ref=e306]:
+        - generic [ref=e308]:
+          - generic [ref=e309]: 
+          - paragraph [ref=e310]: Employee Distribution by Sub Unit
+        - separator [ref=e311]
+        - list [ref=e316]:
+          - listitem [ref=e317] [cursor=pointer]
+          - listitem [ref=e320] [cursor=pointer]
+          - listitem [ref=e323] [cursor=pointer]
+          - listitem [ref=e326] [cursor=pointer]
+          - listitem [ref=e329] [cursor=pointer]
+      - generic [ref=e333]:
+        - generic [ref=e335]:
+          - generic [ref=e336]: 
+          - paragraph [ref=e337]: Employee Distribution by Location
+        - separator [ref=e338]
+        - list [ref=e343]:
+          - listitem [ref=e344] [cursor=pointer]
+          - listitem [ref=e347] [cursor=pointer]
+          - listitem [ref=e350] [cursor=pointer]
+          - listitem [ref=e353] [cursor=pointer]
+    - generic [ref=e356]:
+      - paragraph [ref=e357]: OrangeHRM OS 5.7
+      - paragraph [ref=e358]:
+        - text: © 2005 - 2025
+        - link "OrangeHRM, Inc" [ref=e359] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```

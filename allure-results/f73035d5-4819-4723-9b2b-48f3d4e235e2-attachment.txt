@@ -1,0 +1,6 @@
+resonse is {
+  timestamp: '2025-09-24T04:31:19.695+00:00',
+  status: 404,
+  error: 'Not Found',
+  path: '/objectsff8081819782e69e019979fd7b7a198c'
+}

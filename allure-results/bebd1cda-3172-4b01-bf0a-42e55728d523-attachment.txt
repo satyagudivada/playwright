@@ -1,0 +1,3 @@
+confirm msg: Press a button!
+confirm msg: Please enter your name:
+prompt msg: Please enter your name:
