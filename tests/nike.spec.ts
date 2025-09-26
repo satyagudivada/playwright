@@ -4,6 +4,7 @@ test('sample to sort',async()=>{
     const page=await browser.newPage();
     await page.goto('https://www.nike.com/in/w/');
     const menlink=page.locator("//a[text()='Men']");
+    await page.locator('')
     await menlink.hover();
     //await page.waitForTimeout(1000);
     await page.click("//a[text()='Men']/..//p[text()='All Shoes']");
